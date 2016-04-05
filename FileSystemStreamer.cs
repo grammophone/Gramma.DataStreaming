@@ -55,7 +55,7 @@ namespace Gramma.DataStreaming
 
 			var fullFilename = GetFullFilename(filename);
 
-			return new FileStream(fullFilename, FileMode.Open);
+			return new FileStream(fullFilename, FileMode.Open, FileAccess.Read);
 		}
 
 		/// <summary>
@@ -73,7 +73,7 @@ namespace Gramma.DataStreaming
 
 			var mode = overwrite ? FileMode.Create : FileMode.CreateNew;
 
-			return new FileStream(fullFilename, mode);
+			return new FileStream(fullFilename, mode, FileAccess.Write);
 		}
 
 		#endregion
