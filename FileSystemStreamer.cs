@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Gramma.DataStreaming
+namespace Grammophone.DataStreaming
 {
 	/// <summary>
 	/// A provider of streams from the file system.

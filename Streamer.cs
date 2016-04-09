@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Gramma.DataStreaming
+namespace Grammophone.DataStreaming
 {
 	/// <summary>
 	/// Abstract base class for streamers.

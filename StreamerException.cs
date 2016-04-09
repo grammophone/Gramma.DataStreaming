@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Gramma.DataStreaming
+namespace Grammophone.DataStreaming
 {
 	/// <summary>
 	/// Exception for the data streamer system

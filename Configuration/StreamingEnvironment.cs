@@ -5,15 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Gramma.Configuration;
+using Grammophone.Configuration;
 
-namespace Gramma.DataStreaming.Configuration
+namespace Grammophone.DataStreaming.Configuration
 {
 	/// <summary>
 	/// Provides the configured <see cref="IStreamer"/> implementations
 	/// from <see cref="StreamingSettings"/> specified in XAML
 	/// and resolves requested streams.
-	/// The XAML file is specified in a <see cref="Gramma.Configuration.XamlSettingsSection"/>
+	/// The XAML file is specified in a <see cref="Grammophone.Configuration.XamlSettingsSection"/>
 	/// with name "dataStreamingSection".
 	/// </summary>
 	public static class StreamingEnvironment

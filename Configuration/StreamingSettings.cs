@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Gramma.DataStreaming.Configuration
+namespace Grammophone.DataStreaming.Configuration
 {
 	/// <summary>
 	/// Provides the available <see cref="IStreamer"/> instances.

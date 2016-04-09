@@ -7,8 +7,8 @@
     <ProjectGuid>{9841E0B6-915B-4EC6-B2EC-43A83E112C91}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Gramma.DataStreaming</RootNamespace>
-    <AssemblyName>Gramma.DataStreaming</AssemblyName>
+    <RootNamespace>Grammophone.DataStreaming</RootNamespace>
+    <AssemblyName>Grammophone.DataStreaming</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -20,7 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Gramma.DataStreaming.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\Grammophone.DataStreaming.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,7 +29,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Gramma.DataStreaming.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Grammophone.DataStreaming.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,13 +52,13 @@
     <Compile Include="Streamers.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Gramma.Configuration\Gramma.Configuration.csproj">
+    <ProjectReference Include="..\Grammophone.Configuration\Grammophone.Configuration.csproj">
       <Project>{0f7811fd-6162-4813-9c55-6c43e67308b0}</Project>
-      <Name>Gramma.Configuration</Name>
+      <Name>Grammophone.Configuration</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Gramma.GenericContentModel\Gramma.GenericContentModel.csproj">
+    <ProjectReference Include="..\Grammophone.GenericContentModel\Grammophone.GenericContentModel.csproj">
       <Project>{79d2d4c7-c8de-4f11-93ed-aa4e4d2fc974}</Project>
-      <Name>Gramma.GenericContentModel</Name>
+      <Name>Grammophone.GenericContentModel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
