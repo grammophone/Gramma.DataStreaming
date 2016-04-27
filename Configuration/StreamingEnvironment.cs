@@ -134,6 +134,8 @@ namespace Grammophone.DataStreaming.Configuration
 			{
 				streamer = defaultStreamer;
 				filename = streamerQualifiedFilename;
+
+				return;
 			}
 
 			string streamerKey = filenameParts[0];
