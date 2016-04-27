@@ -82,9 +82,17 @@ namespace Grammophone.DataStreaming
 
 		private string GetFullFilename(string filename)
 		{
-			if (String.IsNullOrEmpty(this.BaseFilename)) return filename;
+			string fullFilename;
 
-			return Path.Combine(this.BaseFilename, filename);
+			if (String.IsNullOrEmpty(this.BaseFilename))
+				fullFilename = filename;
+			else
+				fullFilename = Path.Combine(this.BaseFilename, filename);
+
+			if (Path.IsPathRooted(fullFilename))
+				return fullFilename;
+			else
+				return Path.Combine(AppDomain.CurrentDomain.BaseDirectory, fullFilename);
 		}
 
 		#endregion
